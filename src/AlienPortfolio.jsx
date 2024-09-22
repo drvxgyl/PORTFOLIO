@@ -10,6 +10,7 @@ import {
   Zap,
   Radio,
   Instagram,
+  Linkedin,
 } from "lucide-react"
 
 const AlienSymbol = () => (
@@ -356,6 +357,7 @@ const AlienPortfolio = () => {
           <div className="flex space-x-6">
           {[{ Icon: Github, href: 'https://github.com/drvxgyl' },
             { Icon: Mail, href: 'mailto:dhruvgoyal@vk.com' },
+            { Icon: Linkedin, href: 'https://linkedin.com/in/dhruv--goyal' },
             { Icon: Instagram, href: 'https://instagram.com/drvgyl'}].map(({ Icon, href }, index) =>
  (
               <a
