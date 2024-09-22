@@ -353,10 +353,11 @@ const AlienPortfolio = () => {
             &copy; 2024 Alien Coder. All universal rights reserved.
           </p>
           <div className="flex space-x-6">
-            {[Github, Mail].map((Icon, index) => (
+          {[{ Icon: Github, href: 'https://github.com/drvxgyl' }, { Icon: Mail, href: 'mailto:dhruvgoyal@vk.com' }].map(({ Icon, href }, index) =>
+ (
               <a
                 key={index}
-                href="#"
+                href={href}
                 className="text-green-400 hover:text-green-300 transition-colors duration-150"
               >
                 <Icon size={28} />
