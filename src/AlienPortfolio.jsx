@@ -9,6 +9,7 @@ import {
   ExternalLink,
   Zap,
   Radio,
+  Instagram,
 } from "lucide-react"
 
 const AlienSymbol = () => (
@@ -353,7 +354,9 @@ const AlienPortfolio = () => {
             &copy; 2024 Alien Coder. All universal rights reserved.
           </p>
           <div className="flex space-x-6">
-          {[{ Icon: Github, href: 'https://github.com/drvxgyl' }, { Icon: Mail, href: 'mailto:dhruvgoyal@vk.com' }].map(({ Icon, href }, index) =>
+          {[{ Icon: Github, href: 'https://github.com/drvxgyl' },
+            { Icon: Mail, href: 'mailto:dhruvgoyal@vk.com' },
+            { Icon: Instagram, href: 'https://instagram.com/drvgyl'}].map(({ Icon, href }, index) =>
  (
               <a
                 key={index}
